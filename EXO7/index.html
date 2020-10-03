@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>FORMULAIRE</title>
+</head>
+
+<body>
+    <form>
+        <div>
+            <fieldset class="color-1">
+                <legend class="color-1"">Votre identité :</legend>
+                <ol>
+                    <li>
+                        <label for=" Name">Nom :</label>
+                    <input type="text" name="Name" placeholder="Nom">
+
+                    </li>
+                    <li>
+                        <label for="Firstname">Prenom :</label>
+                        <input type="text" name="Firstname" placeholder="Prenom">
+
+                    </li>
+                    <li><label for="Age">Age :</label>
+                        <input type="text" name="Age" placeholder="Age">
+
+                    </li>
+                    </ol>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset class="color-2">
+                <legend class="color-2">Adresse de livraison</legend>
+                <ol>
+                    <li>
+                        <label for="email"> Adresse Email :</label>
+                        <textarea name="email" id="email" value="email">
+                </textarea>
+                    </li>
+                    <li><label for="postal-code">Code Postal :</label>
+                        <input type="text" name="postal-code" placeholder="Code Postal">
+
+                    </li>
+                    <li><label for="city">Ville :</label>
+                        <input type="text" name="city" placeholder="Ville">
+
+                    </li>
+                </ol>
+            </fieldset>
+            <div>
+                <fieldset class="color-3">
+                    <legend class="color-3"> Information de reglements :
+                    </legend>
+                    <ol>
+                        <li>
+                            Type de carte banquaire :
+                        </li>
+                        <p>
+                            <input type="radio" name="VISA">
+                            <label for="VISA">VISA</label>
+                        </p>
+                        <p>
+                            <input type="radio" name="MasterCard">
+                            <label for="MasterCard">MasterCard</label>
+                        </p>
+                        <li>
+                            <label for="number-of-card">Numero de carte :</label>
+                            <input type="text" name="number-of-card" placeholder="Numero de carte">
+
+                        </li>
+                        <li>
+                            <label for="security-code">Code de securité :</label>
+                            <input type="text" name="city" placeholder="Code de securité">
+
+                        </li>
+                        <li>
+                            <label for="name-of-holder">Nom du titulaire :</label>
+                            <input type="text" name="name-of-holder" placeholder="Nom du titulaire">
+
+                        </li>
+
+
+
+                    </ol>
+
+                </fieldset>
+            </div>
+            <div><input type="button" value="J'achete"></div>
+
+        </div>
+
+    </form>
+</body>
+
+</html>
