@@ -1,0 +1,58 @@
+.box {
+    display: flex;
+    flex-direction: row;
+}
+
+#green {
+    height: 40px;
+    width: 1300px;
+    background: rgb(78, 255, 78);
+}
+
+#blue {
+    height: 40px;
+    width: 300px;
+    background: rgb(87, 87, 228);
+}
+
+#red {
+    height: 75px;
+    width: 450px;
+    background: red;
+}
+
+#orange {
+    height: 75px;
+    width: 600px;
+    background: orange;
+}
+
+#grise {
+    height: 75px;
+    width: 600px;
+    background: #585858;
+}
+
+#yellow {
+    height: 75px;
+    width: 400px;
+    background: #ffd900;
+}
+
+#turquoise {
+    height: 75px;
+    width: 400px;
+    background: #00afa1e0;
+}
+
+#dark-orange {
+    height: 75px;
+    width: 400px;
+    background: #ca7310e0;
+}
+
+#Dark-blue {
+    height: 150px;
+    width: 100%;
+    background: #16162ee0;
+}
